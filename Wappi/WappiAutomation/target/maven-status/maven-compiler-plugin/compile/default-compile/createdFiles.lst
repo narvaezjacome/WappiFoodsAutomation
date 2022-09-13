@@ -1,0 +1,16 @@
+com\narvaez\qa\tasks\ProfileUser.class
+com\narvaez\qa\models\CouponData.class
+com\narvaez\qa\userInterfaces\Profile.class
+com\narvaez\qa\tasks\OrderCoupon.class
+com\narvaez\qa\userInterfaces\Coupon.class
+com\narvaez\qa\models\CredentialsData.class
+com\narvaez\qa\userInterfaces\Order.class
+com\narvaez\qa\tasks\LoginUser.class
+com\narvaez\qa\questions\Order.class
+com\narvaez\qa\tasks\OrderProduct.class
+com\narvaez\qa\models\ProfileData.class
+com\narvaez\qa\tasks\OpenBrowser.class
+com\narvaez\qa\questions\Coupon.class
+com\narvaez\qa\questions\Login.class
+com\narvaez\qa\userInterfaces\Login.class
+com\narvaez\qa\tasks\CouponWelcome.class

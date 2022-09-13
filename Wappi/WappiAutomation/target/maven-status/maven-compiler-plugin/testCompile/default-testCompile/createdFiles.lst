@@ -1,0 +1,8 @@
+com\narvaez\qa\runners\loginRunners.class
+com\narvaez\qa\stepsdefinitions\orderCouponStepDefinitions.class
+com\narvaez\qa\stepsdefinitions\profileStepDefinitions.class
+com\narvaez\qa\runners\orderCouponRunners.class
+com\narvaez\qa\stepsdefinitions\loginStepDefinitions.class
+com\narvaez\qa\stepsdefinitions\orderStepDefinitions.class
+com\narvaez\qa\runners\orderRunners.class
+com\narvaez\qa\runners\profileRunners.class

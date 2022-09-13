@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d3ed05091c3b664408b9355d01ea46d8526add0b3b1c79b32fc3a328ed18a0c4.html">Order</a></span>
+                > <span class="truncate-60"><a
+                    href="938a52c25eafaf2af1f7899e81d85ef4531f14cfed519c1622ece247d2b0b2d6.html">the user wants to request an order </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-09-2022 00:26</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Order </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As quality control automation<br />
+I want to request an order<br />
+To validate the purchase order
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: logged
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">the user wants to request an order
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="bd42a23b3d050b5b6cd6bbfa63dcedde0dded723fac98339ecc41abb76b94c81.png" title="Given That Daniel join Wappi" width="1034"/>
+                <img src="bd42a23b3d050b5b6cd6bbfa63dcedde0dded723fac98339ecc41abb76b94c81.png" title="Yilmer d narvaez open browser" width="1034"/>
+                <img src="bd42a23b3d050b5b6cd6bbfa63dcedde0dded723fac98339ecc41abb76b94c81.png" title="Yilmer D Narvaez opens the https://automation-wappi.vercel.app/login" width="1034"/>
+                <img src="807ec941e499a18415ec7fe8562e2236ba9e28a834bfc5037f5d67e2d4850d68.png" title="When He enter the credentials
+| user | password |
+| UserTest | PassTest |" width="1034"/>
+                <img src="e105586f24a0bda4bc303e2fbc343519e3fa7d09e89a4cd61cf9598b69864334.png" title="Yilmer D Narvaez enters 'UserTest' into Se ingresa el usuario (email)" width="1034"/>
+                <img src="e105586f24a0bda4bc303e2fbc343519e3fa7d09e89a4cd61cf9598b69864334.png" title="Yilmer D Narvaez enters 'PassTest' into Se ingresa la contrasena" width="1034"/>
+                <img src="07d781fdd099e42e3a5613063608a4c67842578fa2095aed5389438407d3fab7.png" title="Yilmer D Narvaez enters 'PassTest' into Se ingresa la contrasena" width="1034"/>
+                <img src="07d781fdd099e42e3a5613063608a4c67842578fa2095aed5389438407d3fab7.png" title="Yilmer D Narvaez clicks on click en iniciar sesi&oacute;n" width="1034"/>
+                <img src="807ec941e499a18415ec7fe8562e2236ba9e28a834bfc5037f5d67e2d4850d68.png" title="Yilmer D Narvaez clicks on click en iniciar sesi&oacute;n" width="1034"/>
+                <img src="ee1131ef2bf56b0c383c6f1b68ea0a48d80a30879efd9e13e353482a717d0713.png" title="When he click order a product" width="1034"/>
+                <img src="ee1131ef2bf56b0c383c6f1b68ea0a48d80a30879efd9e13e353482a717d0713.png" title="Yilmer d narvaez order product" width="1034"/>
+                <img src="829712e8de5e3511c451f078346d8a35ec616c345ed1787d48a7918ddfd64bc6.png" title="Yilmer D Narvaez clicks on Compra producto" width="1034"/>
+                <img src="829712e8de5e3511c451f078346d8a35ec616c345ed1787d48a7918ddfd64bc6.png" title="Yilmer D Narvaez clicks on Confirma compra del producto" width="1034"/>
+                <img src="1707c3e6d30be43f7a96bd04d7a3a0d649cd401e13f4f817c7509172ce28b93a.png" title="Yilmer D Narvaez clicks on Confirma compra del producto" width="1034"/>
+                <img src="380c3087ed21012235061f28c4d0ffac290c26c94ea6a52e79e712938d2d3ff2.png" title="Yilmer D Narvaez clicks on Cierra ventana emergente" width="1034"/>
+                <img src="807ec941e499a18415ec7fe8562e2236ba9e28a834bfc5037f5d67e2d4850d68.png" title="Yilmer D Narvaez clicks on Cierra ventana emergente" width="1034"/>
+                <img src="ca4ae0c595a159c5fee3aec768910ba34c296a610fe2227802ecd95b1d886b27.png" title="Yilmer D Narvaez clicks on Click en Mis Pedidos" width="1034"/>
+                <img src="ca4ae0c595a159c5fee3aec768910ba34c296a610fe2227802ecd95b1d886b27.png" title="Yilmer D Narvaez clicks on Valida compra del producto" width="1034"/>
+                <img src="ee1131ef2bf56b0c383c6f1b68ea0a48d80a30879efd9e13e353482a717d0713.png" title="Yilmer D Narvaez clicks on Valida compra del producto" width="1034"/>
+                <img src="ee1131ef2bf56b0c383c6f1b68ea0a48d80a30879efd9e13e353482a717d0713.png" title="Then he can see the order was placed 13/09/2022 Aceite de Girasol $20,000.00 $2,000.00 Premier Tr. 13 #12-34 No" width="1034"/>
+                <img src="ee1131ef2bf56b0c383c6f1b68ea0a48d80a30879efd9e13e353482a717d0713.png" title="Then order should be '13/09/2022 Aceite de Girasol $20,000.00 $2,000.00 Premier Tr. 13 #12-34 No'" width="1034"/>
+                <img src="ee1131ef2bf56b0c383c6f1b68ea0a48d80a30879efd9e13e353482a717d0713.png" title="Yilmer d narvaez wait until target is ready: <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.12</span>
+</div>
+</body>
+</html>

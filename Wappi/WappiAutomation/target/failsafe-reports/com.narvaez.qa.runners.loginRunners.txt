@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.narvaez.qa.runners.loginRunners
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.649 s - in com.narvaez.qa.runners.loginRunners

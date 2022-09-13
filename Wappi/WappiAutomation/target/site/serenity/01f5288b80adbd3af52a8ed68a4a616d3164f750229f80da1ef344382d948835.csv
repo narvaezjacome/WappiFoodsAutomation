@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"login","Login whit data valid","SUCCESS","2022-09-13T00:23:13.242-05:00[America/Mexico_City]","0.0","12.19"
+"order","the user wants to request an order","SUCCESS","2022-09-13T00:24:39.474-05:00[America/Mexico_City]","0.0","12.96"
+"orderCoupon","he user wants to use coupon in an order","SUCCESS","2022-09-13T00:24:19.147-05:00[America/Mexico_City]","0.0","17.96"
+"profile","user update information","SUCCESS","2022-09-13T00:24:54.542-05:00[America/Mexico_City]","0.0","12.58"
